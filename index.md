@@ -26,6 +26,8 @@ It uses the [Secret](http://scrt.network) blockchain to handle the private token
 
 A unique feature of this tech stack is that you don't need our app to use the stack. You can use third-party software or command line tools to do the same things you would do on the app.
 
+To build and run the app, see our app [repository](https://github.com/TepeProject/tepe-app).
+
 ## Contribute
 
 The project is open for contribution. We are also looking for feedback. Join our [Discord](https://discord.gg/Hfu9hhcqv9) to chat.
