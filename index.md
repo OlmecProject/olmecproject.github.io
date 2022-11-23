@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Olmec
+# Tepe
 
-Olmec is a proof-of-concept in end-to-end token-gating.
+Tepe is a proof-of-concept in end-to-end token-gating.
 
 ## End-to-end token-gating
 
