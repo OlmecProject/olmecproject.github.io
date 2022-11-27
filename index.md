@@ -35,3 +35,9 @@ The project is open for contribution. We are also looking for feedback. Join our
 ## About
 
 We are two postdoctoral researchers who built this as a side project. [Kieran Murphy](http://kieranamurphy.com) is a postdoc at UPenn developing machine learning tools to study complexity. [Harang Ju](http://harangju.com) is a postdoc at MIT Sloan studying the economic and social impacts of web3.
+
+## "Tepe"
+
+Tepe is a Turkish word for "hill". We were inspired by [Göbekli Tepe](https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe), a Neolithic archeogical site in Turkey. It is the oldest known megalith, dated to 9500 and 8000 BC, and it rewrites human history.
+
+Further, Göbekli Tepe was deliberately covered by dirt. Some speculate it was covered as a time capsule to send a message to the future. So not only is Göbekli Tepe inspiring from a historical lens, the speculation about sending covered messages is an analogy for our intentions with end-to-end token-gated content on Tepe.
