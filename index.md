@@ -4,7 +4,7 @@ layout: default
 
 # Tepe
 
-Tepe is a proof-of-concept in end-to-end token-gating.
+Tepe introduces a powerful new paradigm in the evolution of web3: **end-to-end token-gating of content**. The Tepe project is a proof-of-concept working example, and is the only existing method that allows you to control access to content completely within a smart contract. *Please, point us to another example if you can.*
 
 ## End-to-end token-gating
 
@@ -16,15 +16,17 @@ That will all change in web3. As a creator, *you* can own your own content and d
 
 Remember when you could lend out a book to friends? You can't do that with ebooks on Amazon. Or resell a vinyl records to a store? You can't do that with a Spotify subscription. That's all coming back digitally.
 
-NFTs are the way we get from here to there. But now, NFTs display metadata for all to see. With private NFTs, an NFT can unlock content if you own it. That's the beauty of end-to-end token-gating.
+NFTs are the way we get from here to there. But now, NFTs hold no secrets: they display metadata for the world to see. With private NFTs, an NFT can unlock content if you own it. No middleman exists: if you own the NFT, you can access the content.  That's the beauty of end-to-end token-gating.
 
 ## App
 
-We built an app as a proof-of-concept for end-to-end token-gating.
+We built an app as a proof-of-concept for end-to-end token-gating. 
+
+At a high level, your content gets encrypted and can then be posted anywhere and everywhere.  The key to decrpyting the content is then stored within the contents of a smart contract, and the key is only handed out if you own an NFT corresponding to the content.  Nowhere is trust necessary: once the contract has been created, the token-gating is all handled according to the contract.  If you don't have the right NFT, you don't get access.
 
 It uses the [Secret](http://scrt.network) blockchain to handle the private tokens and [ipfs](https://ipfs.tech) to store encrypted files. The app lets you encrypt and upload your content to ipfs and hides the password to the content in the Secret token. You can send your tokens to your friends, who can only unencrypt the file if they own the token.
 
-A unique feature of this tech stack is that you don't need our app to use the stack. You can use third-party software or command line tools to do the same things you would do on the app.
+A unique feature of this tech stack is that you don't need our app to use the stack. The essential component is the smart contract, [which we have also uploaded](https://github.com/TepeProject/tepe-contract); the app just handles all the contract interactions and adds some convenience functionality. You could also use third-party software or command line tools to do all the same things.  
 
 To build and run the app, see our app [repository](https://github.com/TepeProject/tepe-app).
 
