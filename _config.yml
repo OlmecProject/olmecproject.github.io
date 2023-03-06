@@ -8,6 +8,6 @@ description: End-to-end token-gating
 github:
   is_user_page: false
   is_project_page: true
-  repository_url: https://github.com/TepeProject
-  repository_nwo: https://github.com/TepeProject
+  repository_url: https://github.com/TepeLabs/tepe-app
+  repository_nwo: https://github.com/TepeLabs/tepe-app
 google_analytics: G-0BMS4DTCG0
