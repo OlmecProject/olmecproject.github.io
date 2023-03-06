@@ -22,7 +22,7 @@ NFTs are the way we get from here to there. But now, NFTs hold no secrets: they 
 
 We built an app as a proof-of-concept for end-to-end token-gating. 
 
-At a high level, your content gets encrypted and can then be posted anywhere and everywhere.  The key to decrpyting the content is then stored within the contents of a smart contract, and the key is only handed out if you own an NFT corresponding to the content.  Nowhere is trust necessary: once the contract has been created, the token-gating is all handled according to the contract.  If you don't have the right NFT, you don't get access.
+At a high level, your content gets encrypted and can then be posted anywhere and everywhere.  The key to decrypting the content is then stored within the contents of a smart contract, and the key is only handed out if you own an NFT corresponding to the content.  Nowhere is trust necessary: once the contract has been created, the token-gating is all handled according to the contract.  If you don't have the right NFT, you don't get access.
 
 It uses the [Secret](http://scrt.network) blockchain to handle the private tokens and [ipfs](https://ipfs.tech) to store encrypted files. The app lets you encrypt and upload your content to ipfs and hides the password to the content in the Secret token. You can send your tokens to your friends, who can only unencrypt the file if they own the token.
 
